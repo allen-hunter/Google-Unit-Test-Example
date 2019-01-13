@@ -2,7 +2,7 @@
 //
 #include "pch.h"
 #include <iostream>
-#include "Harness.h"
+#include <gtest/gtest.h>
 
 int main(int argc, char* argv[])
 {
