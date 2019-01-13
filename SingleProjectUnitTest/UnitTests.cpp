@@ -4,8 +4,8 @@
 TEST_F(Harness, isPositive)
 {
 	int v = 1;
-	int res = 0;
-	int res_expected = 1;
+	bool res = false;
+	bool res_expected = true;
 
 	res = m_pExample->isPositive(v);
 
@@ -15,8 +15,8 @@ TEST_F(Harness, isPositive)
 TEST_F(Harness, isNegative)
 {
 	int v = -1;
-	int res = 0;
-	int res_expected = 1;
+	bool res = false;
+	bool res_expected = true;
 
 	res = m_pExample->isNegative(v);
 

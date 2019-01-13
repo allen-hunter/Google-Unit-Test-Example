@@ -10,10 +10,10 @@ class Harness : public ::testing::Test
 {
 public:
 	Harness();
-	~Harness();
+	~Harness() override;
 	static void SetUpTestCase();
 	static void TearDownTestCase();
-	virtual void SetUp(void);
-	virtual void TearDown(void);
+	void SetUp() override;
+	void TearDown() override;
 	static ExampleClass* m_pExample;
 };
