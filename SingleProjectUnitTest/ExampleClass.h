@@ -13,5 +13,4 @@ private:
 public:
 	FRIEND_TEST(Harness, isPositive);
 	FRIEND_TEST(Harness, isNegative);
-	//FRIEND_TEST(Harness, test_check_negative_fail);
 };
