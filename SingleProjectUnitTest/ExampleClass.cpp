@@ -8,6 +8,7 @@ ExampleClass::ExampleClass()
 ExampleClass::~ExampleClass()
 = default;
 
+/// <summary>basic function to determine if an int is positive</summary>
 bool ExampleClass::isPositive(int iVal)
 {
 	if (iVal > 0) 
@@ -17,6 +18,7 @@ bool ExampleClass::isPositive(int iVal)
 	return false;
 }
 
+/// <summary>basic function to determine if an int is negative</summary>
 bool ExampleClass::isNegative(int iVal)
 {
 	if (iVal < 0) 
