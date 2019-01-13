@@ -6,8 +6,8 @@ class ExampleClass
 public:
 	ExampleClass();
 	~ExampleClass();
-private:
 	bool isPositive(int iVal);
+private:
 	bool isNegative(int iVal);
 };
 
