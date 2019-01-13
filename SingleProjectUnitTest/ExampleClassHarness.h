@@ -6,11 +6,11 @@
 
 class ExampleClass;
 
-class Harness : public ::testing::Test
+class ExampleClassHarness : public ::testing::Test
 {
 public:
-	Harness();
-	~Harness() override;
+	ExampleClassHarness();
+	~ExampleClassHarness() override;
 	static void SetUpTestCase();
 	static void TearDownTestCase();
 	void SetUp() override;

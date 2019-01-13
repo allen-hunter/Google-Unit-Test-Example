@@ -1,5 +1,5 @@
 #pragma once
-#include "Harness.h"
+#include "ExampleClassHarness.h"
 
 
 class ExampleClass
@@ -11,6 +11,6 @@ public:
 private:
 	bool isNegative(int iVal);
 public:
-	FRIEND_TEST(Harness, isPositive);
-	FRIEND_TEST(Harness, isNegative);
+	FRIEND_TEST(ExampleClassHarness, isPositive);
+	FRIEND_TEST(ExampleClassHarness, isNegative);
 };

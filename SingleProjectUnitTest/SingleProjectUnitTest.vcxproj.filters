@@ -18,10 +18,10 @@
     <ClInclude Include="pch.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Harness.h">
+    <ClInclude Include="ExampleClass.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ExampleClass.h">
+    <ClInclude Include="ExampleClassHarness.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -32,13 +32,13 @@
     <ClCompile Include="SingleProjectUnitTest.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Harness.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="ExampleClass.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="UnitTests.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ExampleClassHarness.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

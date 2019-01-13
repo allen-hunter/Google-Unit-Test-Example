@@ -10,7 +10,8 @@ ExampleClass::~ExampleClass()
 
 bool ExampleClass::isPositive(int iVal)
 {
-	if (iVal > 0) {
+	if (iVal > 0) 
+	{
 		return true;
 	}
 	return false;
@@ -18,7 +19,8 @@ bool ExampleClass::isPositive(int iVal)
 
 bool ExampleClass::isNegative(int iVal)
 {
-	if (iVal < 0) {
+	if (iVal < 0) 
+	{
 		return true;
 	}
 	return false;

@@ -1,7 +1,7 @@
 #include "pch.h"
-#include "Harness.h"
+#include "ExampleClassHarness.h"
 
-TEST_F(Harness, isPositive)
+TEST_F(ExampleClassHarness, isPositive)
 {
 	int v = 1;
 	bool res = false;
@@ -12,7 +12,7 @@ TEST_F(Harness, isPositive)
 	ASSERT_EQ(res, res_expected);
 }
 
-TEST_F(Harness, isNegative)
+TEST_F(ExampleClassHarness, isNegative)
 {
 	int v = -1;
 	bool res = false;
