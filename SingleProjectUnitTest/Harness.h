@@ -3,6 +3,7 @@
 #include <gtest/gtest.h>
 #include "ExampleClass.h"
 
+
 class ExampleClass;
 
 class Harness : public ::testing::Test
@@ -16,4 +17,3 @@ public:
 	virtual void TearDown(void);
 	static ExampleClass* m_pExample;
 };
-

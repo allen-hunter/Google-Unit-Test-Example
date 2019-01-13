@@ -1,7 +1,6 @@
 #include "pch.h"
 #include "ExampleClass.h"
 
-
 ExampleClass::ExampleClass()
 {
 }
