@@ -1,6 +1,6 @@
 # About this project
 I created this as a testbed/showcase for a basic use of the google test framwork within visual studio.
-The architecture in this project is pretty simple, but it demonstrates discrete fixtures for the class being tested,
+The architecture in this project is pretty simple, but it demonstrates discrete fixtures for the class being tested (both public and private member functions),
 with all the tests being stored within a single UnitTests.cpp.  While this file would get large in production, 
 I think consolodating all the tests like this would still be the most intuitive approach, although I could see arguments for 
 embedding the tests into the respective fixture.
