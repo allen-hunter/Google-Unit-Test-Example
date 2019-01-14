@@ -22,3 +22,8 @@ TEST_F(ExampleClassHarness, isNegative)
 
 	ASSERT_EQ(res, res_expected);
 }
+
+TEST(GenericExamples, StreamAppend)
+{
+	EXPECT_TRUE(false) << "demonstrating the appending of a stream";
+}
