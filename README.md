@@ -4,7 +4,9 @@ with all the tests being stored within a single UnitTests.cpp.  While this file 
 I think consolodating all the tests like this would still be the most intuitive approach, although I could see arguments for 
 embedding the tests into the respective fixture.
 
-Procedure for creating a single project with the google test framework in VS 2017:
+An important note for developers that work with hardware, databases, or any setup that isn't always available as you develop:  there are unit test playlists in visual studio that you access by right-clicking the unit tests in the test explorer.  Using this you can create playlists for the various situations you will be developing in.
+
+###Procedure for creating a single project with the google test framework in VS 2017:
 1. Create a Project (say a console application)
 2. use NuGet (right click project) to add one of the Microsoft.googletest adapters (depending on whether you want static or dynamic compilation, and static or dynamic runtime).  Static/Dynamic is recommended
 3. add #define _SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING to preprocessor definitions (hopefully the need to do this will soon disappear)
