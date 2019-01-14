@@ -32,3 +32,4 @@ An important note for developers that work with hardware, databases, or any setu
 10. use the test playlist to add your new tests to either StandAlone or WithHardware (or database, or whatever)
 11. implement your object
 
+Read the advanced documentation for google test [here](https://github.com/google/googletest/blob/master/googletest/docs/advanced.md)
