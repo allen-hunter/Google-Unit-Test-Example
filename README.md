@@ -16,7 +16,7 @@ An important note for developers that work with hardware, databases, or any setu
     2. return RUN_ALL_TESTS();  
 5. add a new class to the project
 6. add a test fixture class to the project.  In the header:
-    1. include <gtest.gtest.h  
+    1. include <gtest.gtest.h>  
     2. include the class you want to test  
     3. forward declare that class  
     4. inherit from : testing :: test  
