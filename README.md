@@ -1,10 +1,14 @@
 # About this project
 I created this as a testbed/showcase for a basic use of the google test framwork within visual studio.
-The architecture in this project is pretty simple, but it demonstrates discrete fixtures for the class being tested (both public and private member functions),
-with all the tests being stored within a single UnitTests.cpp.  While this file would get large in production, 
-I think consolodating all the tests like this would still be the most intuitive approach, although I could see arguments for 
-embedding the tests into the respective fixture.
+The architecture in this project is pretty simple, but it demonstrates discrete fixtures for the class being tested (both public and private member functions).
 
+### On the structure of a project with google test
+In a single-project solution, I went back and forth on the merits of two architectures:
+1. All the unit tests concentrated into a single UnitTests.cpp file, with separate .h/cpp files for the harness classes
+2. A .h/.cpp for the tests of each individual class that would contain all the harnesses and tests needed for that class
+Ultimately, I think the second option is probably best.  You will be dealing with a lot of files quickly, but a logical naming convention (the foo class is tested by the tests in footest.h/cpp) keeps that from getting confusing.  If you did not plan on relying on test fixture classes, and doing all your work with the TEST macro, then I think the single UnitTests.cpp approach would be better- but it would have to be a very small project for that to make any sense, and small projects have no downsides to more files.
+
+###Visual Studio's Test Playlists are great
 An important note for developers that work with hardware, databases, or any setup that isn't always available as you develop:  there are unit test playlists in visual studio that you access by right-clicking the unit tests in the test explorer.  Using this you can create playlists for the various situations you will be developing in.
 
 ### Procedure for creating a single project with the google test framework in VS 2017:
