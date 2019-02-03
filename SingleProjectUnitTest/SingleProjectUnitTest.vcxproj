@@ -156,6 +156,7 @@
     <ClInclude Include="ExampleClass.h" />
     <ClInclude Include="ExampleClassHarness.h" />
     <ClInclude Include="pch.h" />
+    <ClInclude Include="TemplateHarness.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ExampleClass.cpp" />
